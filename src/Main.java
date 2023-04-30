@@ -13,5 +13,9 @@ public class Main {
         for (int j : intArray) {
             System.out.println(j);
         }
+        BubbleSort.sort(intArray);
+        for (int j : intArray) {
+            System.out.println(j);
+        }
     }
 }
